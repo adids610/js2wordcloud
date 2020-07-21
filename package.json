@@ -8,7 +8,7 @@
     "url": "https://github.com/liangbizhi/js2wordcloud.git"
   },
   "scripts": {
-    "clean": "rm dist/*",
+    "clean": "rd /s/q dist",
     "prebuild": "npm run clean",
     "build": "cross-env NODE_ENV=production webpack --color",
     "postbuild": "webpack --color",
